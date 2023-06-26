@@ -1,8 +1,4 @@
-import { Routes, Route, Outlet, Navigate, useLocation } from "react-router-dom";
-
-
-
-
+import { Index as Route } from "./Routes/index";
 
 
 import './index.css';
@@ -10,7 +6,7 @@ import './index.css';
 function App() {
   return (
     <div className="App">
-      
+      <Route />
     </div>
   );
 }
