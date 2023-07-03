@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.hero-container {
+  background: url(/src/Assets/header/hero/hero-img-desktop.jpg);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}

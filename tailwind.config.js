@@ -2,12 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {
-      backgroundImage: {
-        'hero-desktop': "url('/src/Assets/header/hero/hero-img-desktop.jpg'))",
-        'hero-mobile-tab': "url('/src/Assets/header/hero/hero-img-mobile-tab.jpg'))",
-      }
-    },
+    extend: {},
+    fontFamily: {
+      'title': ['Quicksand', 'sans-serif'],
+      'body': ['Tenor Sans', 'sans-serif'],
+      'statement': ['Herr Von Muellerhoff', 'sans-serif'],
+    }
   },
   plugins: [],
 }

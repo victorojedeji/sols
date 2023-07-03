@@ -3,7 +3,7 @@ import HeaderHero from '../Components/HeaderHero'
 
 const Home = () => {
   return (
-    <div>
+    <div className='p-6'>
       <HeaderHero />
     </div>
   )

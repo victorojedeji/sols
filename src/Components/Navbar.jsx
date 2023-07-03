@@ -24,7 +24,7 @@ import logo from "../Assets/logo/svg/logo-no-background.svg"
 
 const Navbar = () => {
   return (
-    <div className='w-full flex items-center justify-between px-6 py-3'>
+    <div className='w-full sticky top-0 left-0 bg-white flex items-center justify-between px-6 py-3'>
       <div className="hamburger_container hidden">
         <CiMenuBurger className="hamburger_icon" />
       </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
       <div className="others">
         <ul className="flex items-center">
           <li className="mr-3">Log in</li>
-          <li className="mr-3">Cart(<span>0</span>)</li>
+          <li className="mr-3">Cart<span className="mx-1">(0)</span></li>
           <li className="mr-3">
             <PiMagnifyingGlassThin />
           </li>
