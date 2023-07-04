@@ -38,3 +38,9 @@
   background-size: cover; 
 }
 
+.giftshop-img-holder {
+  background: url(/src/Assets/gift_shop/accessories.jpg);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}

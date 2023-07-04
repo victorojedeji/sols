@@ -3,7 +3,7 @@ import React from 'react'
 const GiftShopSection = () => {
   return (
     <div>
-      <div className='img-holder'>
+      <div className='giftshop-img-holder'>
             
       </div>
   
