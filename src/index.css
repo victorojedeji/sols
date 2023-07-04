@@ -16,3 +16,25 @@
   background-repeat: no-repeat; 
   background-size: cover; 
 }
+
+.first-cat {
+  background: url(/src/Assets/categories/flats.jpg);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+.sec-cat {
+  background: url(/src/Assets/categories/heels.jpg);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+.third-cat {
+  background: url(/src/Assets/categories/clogs.jpg);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
