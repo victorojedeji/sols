@@ -14,7 +14,7 @@ const CategorySection = () => {
       </div>
 
 
-      <div className='flex mt-10 mb-10 gap-10'>
+      <div className='flex mt-10 mb-20 gap-10'>
         <div className='about w-1/3'>
           <div className='w-full flex align-center justify-center'>
             <img src={scissors} alt='scissors' />

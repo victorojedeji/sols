@@ -24,7 +24,7 @@ import logo from "../Assets/logo/svg/logo-no-background.svg"
 
 const Navbar = () => {
   return (
-    <div className='w-full sticky top-0 left-0 bg-white flex items-center justify-between px-6 py-3 z-20'>
+    <div className='w-full sticky top-0 left-0 bg-white flex items-center justify-between px-6 py-3 z-50'>
       <div className="hamburger_container hidden">
         <CiMenuBurger className="hamburger_icon" />
       </div>
