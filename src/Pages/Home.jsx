@@ -8,6 +8,7 @@ import ShowcaseSection from '../Components/ShowcaseSection'
 import ExploreSection from '../Components/ExploreSection'
 import Recognition from '../Components/Recognition'
 import NewsletterSection from '../Components/NewsletterSection'
+import Footer from '../Components/Footer'
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <LocationSection />
       <ExploreSection />
       <NewsletterSection />
+      <Footer />
     </div>
   )
 }
