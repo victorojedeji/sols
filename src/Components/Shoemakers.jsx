@@ -41,7 +41,7 @@ const BgImg3 = styled.div`
 const Shoemakers = () => {
 
   return (
-    <section className='flex flex-wrap gap-16 mt-14'>
+    <section className='flex flex-wrap gap-16 mt-14 mb-14'>
       <div className='w-[47%] h-[30rem] bg-slate-50 flex flex-col align-center justify-center p-20'>
         <div className='relative w-full'>
           <div className='w-full after:absolute after:block after:w-7 after:bg-black after:h-1 after:left-2/4 after:transform after:-translate-x-1/2'>

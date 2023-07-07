@@ -3,6 +3,10 @@ import HeaderHero from '../Components/HeaderHero'
 import CategorySection from '../Components/CategorySection'
 import GiftShopSection from '../Components/GiftShopSection'
 import Shoemakers from '../Components/Shoemakers'
+import LocationSection from '../Components/LocationSection'
+import ShowcaseSection from '../Components/ShowcaseSection'
+import ExploreSection from '../Components/ExploreSection'
+import Recognition from '../Components/Recognition'
 
 const Home = () => {
   return (
@@ -11,6 +15,10 @@ const Home = () => {
       <CategorySection />
       <GiftShopSection />
       <Shoemakers />
+      <Recognition />
+      <ShowcaseSection />
+      <LocationSection />
+      <ExploreSection />
     </div>
   )
 }
