@@ -17,6 +17,7 @@ const Post1 = styled.div`
   min-width: 20.3rem;
   height: 20rem;
   position: relative;
+  margin-right: .1em;
 
 
   &:before {
@@ -42,6 +43,8 @@ const Post2 = styled.div`
   min-width: 20.3rem;
   height: 20rem;
   position: relative;
+  margin-right: .1em;
+
 
 
   &:before {
@@ -67,6 +70,8 @@ const Post3 = styled.div`
   min-width: 20.3rem;
   height: 20rem;
   position: relative;
+  margin-right: .1em;
+
 
 
   &:before {
@@ -92,6 +97,8 @@ const Post4 = styled.div`
   min-width: 20.3rem;
   height: 20rem;
   position: relative;
+  margin-right: .1em;
+
 
 
   &:before {
