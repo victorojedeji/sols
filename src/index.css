@@ -48,7 +48,7 @@
 .carousel__dots {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .carousel__dots .dot {
@@ -64,5 +64,31 @@
 }
 
 .carousel__dots .dot.active {
+  background: #ffffff;
+}
+
+
+
+
+
+.customer_carousel__dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.customer_carousel__dots .customer_dot {
+  background: #e2e1e1;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 1.5rem;
+  margin: 0 0.5rem;
+  outline: none;
+  width: 1.5rem;
+  transition: background-color 0.3s;
+}
+
+.customer_carousel__dots .customer_dot.active {
   background: #ffffff;
 }

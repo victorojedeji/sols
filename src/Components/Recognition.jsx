@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import vogue from '../Assets/media/vogue.png';
 // import cosmopolitan from '../Assets/media/cosmopolitan.png';
@@ -40,45 +40,114 @@ const mediaData = [
   },
 ];
 
+
+const customerData = [
+  {
+    id: 1,
+    rating: ratingstars,
+    post: '"High quality, great craftmanship, and extremely comfortable."',
+  },
+  {
+    id: 2,
+    rating: ratingstars,
+    post: '"Stunningly chic, versatile, and comfortable straight out of the box."',
+  },
+  {
+    id: 3,
+    rating: ratingstars,
+    post:  '"Hands down one of the best purchases I\'ve made in the last year. They are comfortable and stylish and I get at least one compliment every time I wear them."',
+  },
+];
+
 const Recognition = () => {
   const [activeIdx, setActiveIdx] = useState(0);
+  const [customerActiveIdx, setCustomerActiveIdx] = useState(0);
 
   const handleDotClick = (idx) => {
     setActiveIdx(idx);
   };
 
+  const handleCustomerDotClick = (idx) => {
+    setCustomerActiveIdx(idx);
+  };
+
+  useEffect(() => {
+    const mediaTimer = setInterval(() => {
+      setActiveIdx((prevIdx) => (prevIdx + 1) % mediaData.length);
+    }, 7000);
+
+    const customerTimer = setInterval(() => {
+      setCustomerActiveIdx((prevIdx) => (prevIdx + 1) % customerData.length);
+    }, 7000);
+
+    return () => {
+      clearInterval(mediaTimer);
+      clearInterval(customerTimer);
+    };
+  }, []);
+
   return (
     <section className="w-full flex items-center mb-14">
-      <div className="w-[50%] min-h-[60vh] bg-slate-600 pt-20 pb-20">
+      <div className="w-[50%] h-[80vh] bg-gray-500 pt-20 pb-20 pl-10 pr-10">
         <h5 className="text-white font-body text-center mb-10">In The Press</h5>
         <div>
           <div className="flex">
             {mediaData.map((data, idx) => (
               <div
                 key={data.id}
-                className={`flex flex-col justify-center items-center min-w-[10rem] ${
-                  activeIdx === idx ? 'translate-x-[-10rem]' : 'translate-x-0'
-                } transition-transform duration-500`}
+                className={`flex flex-col justify-center items-center min-w-[100%] ${
+                  activeIdx === idx ? 'block' : 'hidden'
+                } transition-opacity duration-500 min-h-[30vh]`}
               >
                 <img src={data.img} alt={data.id} className="w-[15rem] pb-5" />
-                <p className="text-white">{data.post}</p>
+                <p className="text-white text-center">{data.post}</p>
               </div>
             ))}
           </div>
-        </div>
-        <div className="carousel__dots">
-          {mediaData.map((_, idx) => (
-            <button
-              key={idx}
-              onClick={() => handleDotClick(idx)}
-              className={`dot ${activeIdx === idx ? 'active' : ''}`}
-            />
-          ))}
+          <div className='w-full relative'>
+            <div className="carousel__dots absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              {mediaData.map((_, idx) => (
+                <button
+                  key={idx}
+                  onClick={() => handleDotClick(idx)}
+                  className={`dot ${activeIdx === idx ? 'active' : ''}`}
+                />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
 
-      <div className="w-[50%]">
-        <h5>From Our Customers</h5>
+      <div className="w-[50%] bg-gray-100 h-[80vh] pt-20 pb-20 pl-10 pr-10">
+        <h5 className="text-center font-body text-center mb-10">From Our Customers</h5>
+
+        <div>
+          <div className="flex">
+            {customerData.map((data, idx) => (
+              <div
+                key={data.id}
+                className={`flex flex-col justify-center items-center min-w-[100%] ${
+                  customerActiveIdx === idx ? 'block' : 'hidden'
+                } transition-opacity duration-500 min-h-[30vh]`}
+              >
+                <img src={data.rating} alt={data.id} className="w-[15rem] pb-5 invert-[0.7]" />
+                <p className="text-center">{data.post}</p>
+              </div>
+            ))}
+          </div>
+          
+          <div className='w-full relative'>
+            <div className="customer_carousel__dots absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              {customerData.map((_, idx) => (
+                <button
+                  key={idx}
+                  onClick={() => handleCustomerDotClick(idx)}
+                  className={`customer_dot ${customerActiveIdx === idx ? 'active' : ''}`}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
