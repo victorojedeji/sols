@@ -56,20 +56,16 @@
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  height: 1.5rem;
+  height: 1rem;
   margin: 0 0.5rem;
   outline: none;
-  width: 1.5rem;
+  width: 1rem;
   transition: background-color 0.3s;
 }
 
 .carousel__dots .dot.active {
   background: #ffffff;
 }
-
-
-
-
 
 .customer_carousel__dots {
   display: flex;
@@ -82,10 +78,10 @@
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  height: 1.5rem;
+  height: 1rem;
   margin: 0 0.5rem;
   outline: none;
-  width: 1.5rem;
+  width: 1rem;
   transition: background-color 0.3s;
 }
 

@@ -46,7 +46,7 @@ const Footer = () => {
       </div>
 
       <div className='bg-fuchsia-100 flex justify-end pr-7 pt-3 pb-3 text-sm'>
-        <p>© 2023, Fortress</p>
+        <p>© 2023, Sols.</p>
       </div>
     </section>
   )
