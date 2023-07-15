@@ -2,27 +2,30 @@ import { useState } from 'react';
 
 import { 
   CiMenuBurger,
- } from "react-icons/ci"
+ } from "react-icons/ci";
 
  import { 
   RiArrowDownSLine,
   RiArrowRightSLine
- } from "react-icons/ri" 
+ } from "react-icons/ri" ;
 
  import { 
   PiMagnifyingGlassThin,
- } from "react-icons/pi" 
+ } from "react-icons/pi" ;
 
  import { 
   LiaShoppingBagSolid,
- } from "react-icons/lia" 
+ } from "react-icons/lia" ;
 
- import { AiOutlineClose, AiOutlinePlus } from "react-icons/ai"
+ import { AiOutlineClose, AiOutlinePlus } from "react-icons/ai";
 
-import {CiInstagram, CiFacebook} from "react-icons/ci"
+import {CiInstagram, CiFacebook} from "react-icons/ci";
 
 import logo from '../Assets/logo/svg/logo-no-background.svg';
 import products from '../Assets/gift_shop/products_2.jpg'
+
+import {Link} from 'react-router-dom';
+
 import styled from 'styled-components';
 
 
@@ -238,7 +241,7 @@ const Navbar = () => {
                     <div className="megamenu w-full h-[23rem] bg-fuchsia-50 absolute left-0 top-[7.75rem] border border-slate-400 border-solid border-x-0 flex justify-between p-14" onMouseLeave={handleShoesMenuToggleOff}>
                     <div className='w-[40%]'>
                       <div className=' border border-slate-400 border-solid border-x-0 border-t-0 pb-6'> 
-                        <h4 className='text-2xl font-body'>Accossories</h4>
+                        <h4 className='text-2xl font-body'>Accessories</h4>
                       </div>
 
                       <div className='flex mt-5'>
@@ -278,7 +281,9 @@ const Navbar = () => {
 
           <div className="others hidden lg:block">
             <ul className="flex items-center">
-              <li className="mr-3 cursor-pointer">Log in</li>
+              <li className="mr-3 cursor-pointer">
+                <Link to='/log-in'>Log in</Link>
+              </li>
               <li className="mr-3 cursor-pointer">
                 Cart<span className="mx-1">(0)</span>
               </li>
