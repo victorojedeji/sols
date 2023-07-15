@@ -276,7 +276,9 @@ const Navbar = () => {
           </div>
 
           <div className="logo_container w-[60%] flex items-center justify-center">
-            <img src={logo} alt="sols" className="w-[5rem] cursor-pointer md:w-40" />
+            <Link to='/'>
+              <img src={logo} alt="sols" className="w-[5rem] cursor-pointer md:w-40" />          
+            </Link>
           </div>
 
           <div className="others hidden lg:block">
