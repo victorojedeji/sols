@@ -122,7 +122,7 @@ const ExploreSection = () => {
     <section className='mb-14'>
       <div className='relative w-full mb-8'>
         <div className='w-full after:absolute after:block after:w-7 after:bg-black after:h-1 after:left-2/4 after:transform after:-translate-x-1/2'>
-          <h1 className='text-3xl text-center font-body py-2'>Explore Our Instagram</h1>
+          <h1 className='text-xl md:text-3xl text-center font-body py-2'>Explore Our Instagram</h1>
         </div>
       </div>
 

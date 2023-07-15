@@ -5,8 +5,8 @@ import {CiInstagram, CiFacebook} from "react-icons/ci"
 const Footer = () => {
   return (
     <section>
-      <div className='bg-fuchsia-50 flex justify-between pt-20 pb-10 pl-7 pr-7'>
-        <div className='w-[17%]'>
+      <div className='bg-fuchsia-50 flex flex-col md:flex-row justify-between pt-7 md:pt-20 pb-10 pl-7 pr-7'>
+        <div className='w-[100%] mb-7 md:mb-0 md:w-[17%]'>
           <h4 className='font-body mb-2 text-xl'>Shops</h4>
           <ul>
             <li>Women's Shoes</li>
@@ -14,7 +14,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className='w-[17%]'>
+        <div className='w-[100%] mb-7 md:mb-0 md:w-[17%]'>
           <h4 className='font-body mb-2 text-xl'>Customer Services</h4>
           <ul>
             <li>My Account</li>
@@ -24,7 +24,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className='w-[17%]'>
+        <div className='w-[100%] mb-7 md:mb-0 md:w-[17%]'>
           <h4 className='font-body mb-2 text-xl'>Company</h4>
           <ul>
             <li>Our Story</li>
@@ -36,7 +36,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className='w-[17%]'>
+        <div className='w-[100%] mb-7 md:mb-0 md:w-[17%]'>
           <h4 className='font-body mb-2 text-xl'>Socials</h4>
           <ul className='flex gap-6'>
             <li><CiFacebook className='text-3xl'/></li>

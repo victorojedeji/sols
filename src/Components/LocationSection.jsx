@@ -15,14 +15,14 @@ const ShopBgImg = styled.div`
 
 const LocationSection = () => {
   return (
-    <section className='w-full h-[90vh] flex align-center bg-stone-50 p-14 mb-14'>
-      <div className='w-[40%] relative'>
-        <div className='absolute bg-white pt-8 pb-16 pl-6 pr-6 top-1/2 transform -translate-y-1/2 right-[-5rem]'>
+    <section className='w-full h-[90vh] flex flex-col md:flex-row align-center bg-stone-50 p-2 md:p-14 mb-14'>
+      <div className='w-full md:w-[40%] relative'>
+        <div className='static md:absolute bg-white pt-8 pb-7 md:pb-16 pl-6 pr-6 md:top-1/2 md:transform md:-translate-y-1/2 md:right-[-5rem]'>
           <div className='w-full after:absolute after:block after:w-7 after:bg-black after:h-1 mb-5'>
             <h5 className='text-2xl font-title py-1 text-2xl capitalize'>Los angeles flagship</h5>
           </div>
           
-          <div className='flex gap-[11rem]'>
+          <div className='flex gap-[2em] md:gap-[11rem]'>
             <div>
               <p>417 E. 43rd St.</p>
               <p>Beverly Hills, LA 78751</p>
@@ -38,7 +38,7 @@ const LocationSection = () => {
         </div>
       </div>
 
-      <div className='giftshop-img-holder w-[60%] h-full'></div>
+      <div className='giftshop-img-holder w-full md:w-[60%] h-full'></div>
     </section>
   )
 }

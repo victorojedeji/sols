@@ -12,9 +12,18 @@
 
 .hero-container {
   background: url(/src/Assets/header/hero/hero-img-desktop.jpg);
-  background-position: center; 
+  background-position: left; 
   background-repeat: no-repeat; 
-  background-size: cover; 
+  background-size: contain; 
+}
+
+@media(min-width: 768px) {
+  .hero-container {
+    background: url(/src/Assets/header/hero/hero-img-desktop.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  }
 }
 
 .first-cat {

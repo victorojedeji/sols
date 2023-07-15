@@ -44,7 +44,7 @@ const Navbar = () => {
   const [showIndentedNav, setShowIndentedNav] = useState(null);
 
   const handleSidebar =() => {
-    setShowSidebar(!showSidebar)
+    setShowSidebar((prevState) => !prevState)
   };
 
   const handleIndentedNav = (item) => {
@@ -70,10 +70,10 @@ const Navbar = () => {
   };
 
   return (
-    <section className='sticky top-0 left-0 z-50'>
+    <section className='sticky top-0 left-0 z-50 w-[100vw]'>
       <div className='relative'>
-        <div className="w-full bg-fuchsia-50 flex items-center justify-between px-6 py-3">
-          <div className="hamburger_container block lg:hidden">
+        <div className="bg-fuchsia-50 flex items-center justify-between px-6 py-3">
+          <div className="hamburger_container block lg:hidden w-[20%]">
             <CiMenuBurger 
               className="hamburger_icon text-2xl" 
               onClick={handleSidebar} 
@@ -82,11 +82,11 @@ const Navbar = () => {
             <div 
             className={`
               mobile-navbar lg:hidden min-w-full absolute top-0 left-0 h-[100vh]
-              ${showSidebar ? 'hidden' : 'block' }
+              ${showSidebar ? 'block' : 'hidden' }
             `}>
               <div className='before:block before:absolute before:top-0 before:bottom-0 before:w-full before:h-full before:bg-[#00000085]'></div>
 
-              <div className='h-full min-w-[22rem] bg-gray-50 absolute overflow-y-auto'>
+              <div className='h-full min-w-full md:min-w-[25rem] bg-gray-50 absolute overflow-y-auto'>
                 <div className='pt-4 pl-4 pb-6 absolute top-0 left-0'> 
                   <AiOutlineClose 
                     className='text-2xl'
@@ -213,8 +213,8 @@ const Navbar = () => {
                     </div>
                     <div className='w-[25%]'>
                       <ProductContainer></ProductContainer>
-                      <h4 className='text-2xl font-body mt-2'>Non -Toxic lip products.</h4>
-                      <p className='mt-1'>Stunning shades made for sandal days.</p>
+                      <h4 className='lg:text-xl font-body mt-2'>Non -Toxic lip products.</h4>
+                      <p className='mt-1 lg:text-sm'>Stunning shades made for sandal days.</p>
                       <div className='flex items-center mt-2 cursor-pointer'> 
                         <p className='text-sm font-body'>Shop now</p><RiArrowRightSLine className='flex item-center justify-center' />
                       </div>
@@ -259,8 +259,8 @@ const Navbar = () => {
                     </div>
                     <div className='w-[25%]'>
                       <ProductContainer></ProductContainer>
-                      <h4 className='text-2xl font-body mt-2'>Non -Toxic lip products.</h4>
-                      <p className='mt-1'>Stunning shades made for sandal days.</p>
+                      <h4 className='text-2xl font-body mt-2 lg:text-xl'>Non -Toxic lip products.</h4>
+                      <p className='mt-1 lg:text-sm'>Stunning shades made for sandal days.</p>
                       <div className='flex items-center mt-2 cursor-pointer'> 
                         <p className='text-sm font-body'>Shop now</p><RiArrowRightSLine className='flex item-center justify-center' />
                       </div>
@@ -272,8 +272,8 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <div className="logo_container">
-            <img src={logo} alt="sols" className="w-40 cursor-pointer" />
+          <div className="logo_container w-[60%] flex items-center justify-center">
+            <img src={logo} alt="sols" className="w-[5rem] cursor-pointer md:w-40" />
           </div>
 
           <div className="others hidden lg:block">
@@ -288,8 +288,8 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <div className="block lg:hidden">
-            <ul className="flex">
+          <div className="block lg:hidden w-[20%]">
+            <ul className="flex w-full items-center justify-end">
               <li className="mr-3 cursor-pointer">
                 <PiMagnifyingGlassThin className='text-2xl'/>
               </li>

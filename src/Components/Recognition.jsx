@@ -87,8 +87,8 @@ const Recognition = () => {
   }, []);
 
   return (
-    <section className="w-full flex items-center mb-14">
-      <div className="w-[50%] h-[80vh] bg-gray-500 pt-20 pb-20 pl-10 pr-10">
+    <section className="w-full flex flex-col md:flex-row items-center mb-7 md:mb-14">
+      <div className="w-[100%] md:w-[50%] h-[80vh] bg-gray-500 pt-10 md:pt-20 pb-10 md:pb-20 pl-10 pr-10">
         <h5 className="text-white font-body text-center mb-10">In The Press</h5>
         <div>
           <div className="flex">
@@ -118,7 +118,7 @@ const Recognition = () => {
         </div>
       </div>
 
-      <div className="w-[50%] bg-gray-100 h-[80vh] pt-20 pb-20 pl-10 pr-10">
+      <div className="w-[100%] md:w-[50%] bg-gray-100 h-[80vh] pt-10 md:pt-20 pb-10 md:pb-20 pl-10 pr-10">
         <h5 className="text-center font-body text-center mb-10">From Our Customers</h5>
 
         <div>
