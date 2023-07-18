@@ -54,6 +54,13 @@
   background-size: cover; 
 }
 
+.shopbg {
+  background: url(/src/Assets/shopBg/shopbg.jpg);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
 .carousel__dots {
   display: flex;
   justify-content: center;

@@ -2,7 +2,7 @@ import React from 'react'
 
 const NewsletterSection = () => {
   return (
-    <section className='mt-14 bg-pink-100 pt-7 md:pt-14 pb-7 md:pb-14 pr-10 pl-10 mb-7 md:mb-14'>
+    <section className='mt-14 bg-pink-100 pt-7 md:pt-14 pb-7 md:pb-14 pr-10 pl-10'>
       <div className='relative w-full mb-2'>
         <div className='w-full after:absolute after:block after:w-7 after:bg-black after:h-1 after:left-2/4 after:transform after:-translate-x-1/2 mb-5'>
           <h1 className='text-xl md:text-3xl text-center font-body py-1'>Connect With Us</h1>

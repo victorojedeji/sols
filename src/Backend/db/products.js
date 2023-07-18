@@ -1,8 +1,8 @@
 // ALPACA THROWS
-import alpacathrow_1_1 from "../../Assets/products/alpaca throws/alpacathrow_1_1.jpg";
-import alpacathrow_1_2 from "../../Assets/products/alpaca throws/alpacathrow_1_2.jpg";
-import alpacathrow_2_1 from "../../Assets/products/alpaca throws/alpacathrow_2_1.jpg";
-import alpacathrow_2_2 from "../../Assets/products/alpaca throws/alpacathrow_2_2.jpg";
+import alpacathrow_1_1 from "../../Assets/products/alpaca_throws/alpacathrow_1_1.jpg";
+import alpacathrow_1_2 from "../../Assets/products/alpaca_throws/alpacathrow_1_2.png";
+import alpacathrow_2_1 from "../../Assets/products/alpaca_throws/alpacathrow_2_1.png";
+import alpacathrow_2_2 from "../../Assets/products/alpaca_throws/alpacathrow_2_2.jpg";
 
 // BOOTS
 import boot_1_l from "../../Assets/products/boots/boot_1_l.jpg";
@@ -17,13 +17,13 @@ import boot_5_l from "../../Assets/products/boots/boot_5_l.jpg";
 import boot_5_r from "../../Assets/products/boots/boot_5_r.jpg";
 
 // CANDLES AND SCENTS 
-import candle_1_1 from "../../Assets/products/candles and scents/candle_1_1.jpg";
-import candle_1_2 from "../../Assets/products/candles and scents/candle_1_2.jpg";
-import candle_2 from "../../Assets/products/candles and scents/candle_2.jpg";
-import candle_3 from "../../Assets/products/candles and scents/candle_3.jpg";
-import candle_4 from "../../Assets/products/candles and scents/candle_4.jpg";
-import candle_5_1 from "../../Assets/products/candles and scents/candle_5_1.jpg";
-import candle_5_2 from "../../Assets/products/candles and scents/candle_5_2.jpg";
+import candle_1_1 from "../../Assets/products/candles_and_scents/candle_1_1.jpg";
+import candle_1_2 from "../../Assets/products/candles_and_scents/candle_1_2.jpg";
+import candle_2 from "../../Assets/products/candles_and_scents/candle_2.jpg";
+// import candle_3 from "../../Assets/products/candles and scents/candle_3.jpg";
+// import candle_4 from "../../Assets/products/candles and scents/candle_4.jpg";
+// import candle_5_1 from "../../Assets/products/candles and scents/candle_5_1.jpg";
+// import candle_5_2 from "../../Assets/products/candles and scents/candle_5_2.jpg";
 
 // CLOGS
 import clog_1_l from "../../Assets/products/clogs/clog_1_l.jpg";
@@ -82,43 +82,43 @@ import jewelry_5_1 from "../../Assets/products/jewelry/jewelry_5_1.jpg";
 import jewelry_5_2 from "../../Assets/products/jewelry/jewelry_5_2.jpg";
 import jewelry_6_1 from "../../Assets/products/jewelry/jewelry_6_1.jpg";
 import jewelry_6_2 from "../../Assets/products/jewelry/jewelry_6_2.jpg";
-import jewelry_7_1 from "../../Assets/products/jewelry/jewelry_7_1.jpg";
-import jewelry_7_2 from "../../Assets/products/jewelry/jewelry_7_2.jpg";
-import jewelry_8_1 from "../../Assets/products/jewelry/jewelry_8_1.jpg";
-import jewelry_8_2 from "../../Assets/products/jewelry/jewelry_8_2.jpg";
-import jewelry_9_1 from "../../Assets/products/jewelry/jewelry_9_1.jpg";
-import jewelry_9_2 from "../../Assets/products/jewelry/jewelry_9_2.jpg";
-import jewelry_10_1 from "../../Assets/products/jewelry/jewelry_10_1.jpg";
-import jewelry_10_2 from "../../Assets/products/jewelry/jewelry_10_2.jpg";
-import jewelry_11_1 from "../../Assets/products/jewelry/jewelry_11_1.jpg";
-import jewelry_11_2 from "../../Assets/products/jewelry/jewelry_11_2.jpg";
-import jewelry_12_1 from "../../Assets/products/jewelry/jewelry_12_1.jpg";
-import jewelry_12_2 from "../../Assets/products/jewelry/jewelry_12_2.jpg";
-import jewelry_13_1 from "../../Assets/products/jewelry/jewelry_13_1.jpg";
-import jewelry_13_2 from "../../Assets/products/jewelry/jewelry_13_2.jpg";
-import jewelry_14_1 from "../../Assets/products/jewelry/jewelry_14_1.jpg";
-import jewelry_14_2 from "../../Assets/products/jewelry/jewelry_14_2.jpg";
+// import jewelry_7_1 from "../../Assets/products/jewelry/jewelry_7_1.jpg";
+// import jewelry_7_2 from "../../Assets/products/jewelry/jewelry_7_2.jpg";
+// import jewelry_8_1 from "../../Assets/products/jewelry/jewelry_8_1.jpg";
+// import jewelry_8_2 from "../../Assets/products/jewelry/jewelry_8_2.jpg";
+// import jewelry_9_1 from "../../Assets/products/jewelry/jewelry_9_1.jpg";
+// import jewelry_9_2 from "../../Assets/products/jewelry/jewelry_9_2.jpg";
+// import jewelry_10_1 from "../../Assets/products/jewelry/jewelry_10_1.jpg";
+// import jewelry_10_2 from "../../Assets/products/jewelry/jewelry_10_2.jpg";
+// import jewelry_11_1 from "../../Assets/products/jewelry/jewelry_11_1.jpg";
+// import jewelry_11_2 from "../../Assets/products/jewelry/jewelry_11_2.jpg";
+// import jewelry_12_1 from "../../Assets/products/jewelry/jewelry_12_1.jpg";
+// import jewelry_12_2 from "../../Assets/products/jewelry/jewelry_12_2.jpg";
+// import jewelry_13_1 from "../../Assets/products/jewelry/jewelry_13_1.jpg";
+// import jewelry_13_2 from "../../Assets/products/jewelry/jewelry_13_2.jpg";
+// import jewelry_14_1 from "../../Assets/products/jewelry/jewelry_14_1.jpg";
+// import jewelry_14_2 from "../../Assets/products/jewelry/jewelry_14_2.jpg";
 
 // LANDING PAGE
-import landing_1_1 from "../../Assets/products/landing page/landing_1_1.jpg";
-import landing_1_2 from "../../Assets/products/landing page/landing_1_2.jpg";
-import landing_2_1 from "../../Assets/products/landing page/landing_2_1.jpg";
-import landing_2_2 from "../../Assets/products/landing page/landing_2_2.jpg";
-import landing_3_1 from "../../Assets/products/landing page/landing_3_1.jpg";
-import landing_3_2 from "../../Assets/products/landing page/landing_3_2.jpg";
+// import landing_1_1 from "../../Assets/products/landing page/landing_1_1.jpg";
+// import landing_1_2 from "../../Assets/products/landing page/landing_1_2.jpg";
+// import landing_2_1 from "../../Assets/products/landing page/landing_2_1.jpg";
+// import landing_2_2 from "../../Assets/products/landing page/landing_2_2.jpg";
+// import landing_3_1 from "../../Assets/products/landing page/landing_3_1.jpg";
+// import landing_3_2 from "../../Assets/products/landing page/landing_3_2.jpg";
 
 
 // NAIL POLISH 
-import nail_1_1 from "../../Assets/products/landing page/nail_1_1.jpg";
-import nail_1_2 from "../../Assets/products/landing page/nail_1_2.jpg";
-import nail_2_1 from "../../Assets/products/landing page/nail_2_1.jpg";
-import nail_2_2 from "../../Assets/products/landing page/nail_2_2.jpg";
-import nail_3_1 from "../../Assets/products/landing page/nail_3_1.jpg";
-import nail_3_2 from "../../Assets/products/landing page/nail_3_2.jpg";
-import nail_4_1 from "../../Assets/products/landing page/nail_4_1.jpg";
-import nail_4_2 from "../../Assets/products/landing page/nail_4_2.jpg";
-import nail_5_1 from "../../Assets/products/landing page/nail_5_1.jpg";
-import nail_5_2 from "../../Assets/products/landing page/nail_5_2.jpg";
+import nail_1_1 from "../../Assets/products/nail_polish/nail_1_1.jpg";
+import nail_1_2 from "../../Assets/products/nail_polish/nail_1_2.jpg";
+import nail_2_1 from "../../Assets/products/nail_polish/nail_2_1.jpg";
+import nail_2_2 from "../../Assets/products/nail_polish/nail_2_2.jpg";
+import nail_3_1 from "../../Assets/products/nail_polish/nail_3_1.jpg";
+import nail_3_2 from "../../Assets/products/nail_polish/nail_3_2.jpg";
+import nail_4_1 from "../../Assets/products/nail_polish/nail_4_1.jpg";
+import nail_4_2 from "../../Assets/products/nail_polish/nail_4_2.jpg";
+import nail_5_1 from "../../Assets/products/nail_polish/nail_5_1.jpg";
+import nail_5_2 from "../../Assets/products/nail_polish/nail_5_2.jpg";
 
 // PILLOWS 
 import pillow_1_1 from "../../Assets/products/pillows/pillow_1_1.jpg";
@@ -145,7 +145,7 @@ import polish_1 from "../../Assets/products/shoecare/polish_1.jpg";
 import polish_2 from "../../Assets/products/shoecare/polish_2.jpg";
 import polish_3 from "../../Assets/products/shoecare/polish_3.jpg";
 import polish_4 from "../../Assets/products/shoecare/polish_4.jpg";
-import polish_5 from "../../Assets/products/shoecare/polish_5.jpg";
+// import polish_5 from "../../Assets/products/shoecare/polish_5.jpg";
 
 // SNEAKERS 
 import sneaker_1_1 from "../../Assets/products/sneakers/sneaker_1_1.jpg";
@@ -155,10 +155,10 @@ import sneaker_2_2 from "../../Assets/products/sneakers/sneaker_2_2.jpg";
 
 
 // TOTE BAGS
-import tote_1_1 from "../../Assets/products/tote bags/tote_1_1.jpg";
-import tote_1_2 from "../../Assets/products/tote bags/tote_1_2.jpg";
-import tote_2_1 from "../../Assets/products/tote bags/tote_2_1.jpg";
-import tote_2_2 from "../../Assets/products/tote bags/tote_2_2.jpg";
+import tote_1_1 from "../../Assets/products/tote_bags/tote_1_1.jpg";
+import tote_1_2 from "../../Assets/products/tote_bags/tote_1_2.jpg";
+import tote_2_1 from "../../Assets/products/tote_bags/tote_2_1.jpg";
+import tote_2_2 from "../../Assets/products/tote_bags/tote_2_2.jpg";
 
 
 function getRandomNumber() {
@@ -166,7 +166,7 @@ function getRandomNumber() {
     return randomNumber;
 }
 
-export const landingPage = [
+const landingPage = [
     {
         name: "Citlalmina",
         images: [flat_6_r, flat_6_l],
@@ -230,7 +230,7 @@ export const landingPage = [
     },
 ]
 
-export const shoeProducts = [
+const shoeProducts = [
     {
         name: "elle",
         images: [boot_1_r, boot_1_l],
@@ -884,7 +884,7 @@ export const shoeProducts = [
     },
 ]
 
-export const accessories = [
+const accessories = [
     {
         name: "teagan alpaca throw",
         images: [alpacathrow_1_1, alpacathrow_1_2],
@@ -1185,9 +1185,77 @@ export const accessories = [
         brand: "atlanta candle co.",
         // quantity: 3,
         price: "25",
-        category: "cacndle and scent",
+        category: "candles and scents",
         reviewRate: getRandomNumber(),
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima autem!",
         about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, nostrum! Quidem totam dolores voluptatum porro voluptate officiis nemo accusamus debitis nihil, voluptates, esse itaque repellendus, vitae doloremque labore obcaecati explicabo.",
     },
 ]
+
+const categories = [
+    {
+        id: 1,
+        categoryName: 'all shoes',
+    },
+    {
+        id: 2,
+        categoryName: 'boots',
+    },
+    {
+        id: 3,
+        categoryName: 'clogs',
+    },
+    {
+        id: 4,
+        categoryName: 'flats',
+    },
+    {
+        id: 5,
+        categoryName: 'heels',
+    },
+    {
+        id: 6,
+        categoryName: 'sandals',
+    },
+    {
+        id: 7,
+        categoryName: 'sneakers',
+    },
+    {
+        id: 8,
+        categoryName: 'accessories',
+    },
+    {
+        id: 9,
+        categoryName: 'alpaca throws',
+    },
+    {
+        id: 10,
+        categoryName: 'candles and scents',
+    },
+    {
+        id: 11,
+        categoryName: 'jewelry',
+    },
+    {
+        id: 12,
+        categoryName: 'nail polish',
+    },
+    {
+        id: 13,
+        categoryName: 'tote bags',
+    },
+    {
+        id: 14,
+        categoryName: 'pillows',
+    },
+    {
+        id: 15,
+        categoryName: 'shoe care',
+    },
+]
+
+
+const displayImage = heel_4_r
+
+export { shoeProducts, landingPage, accessories, categories, displayImage } 

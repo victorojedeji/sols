@@ -73,9 +73,9 @@ const Navbar = () => {
   };
 
   return (
-    <section className='sticky top-0 left-0 z-50 w-[100vw]'>
+    <section className='sticky top-0 left-0 z-50 w-full'>
       <div className='relative'>
-        <div className="bg-fuchsia-50 flex items-center justify-between px-6 py-3">
+        <div className="bg-rose-50 flex items-center justify-between px-6 py-3">
           <div className="hamburger_container block lg:hidden w-[20%]">
             <CiMenuBurger 
               className="hamburger_icon text-2xl" 
@@ -119,7 +119,6 @@ const Navbar = () => {
                           ${showIndentedNav === 1 ? 'block' : 'hidden'}
                         `}
                       >
-                        <li className='pt-1 pb-1 text-[.98rem]'>New Arrivals</li>
                         <li className='pt-1 pb-1 text-[.98rem]'>All Shoes</li>
                         <li className='pt-1 pb-1 text-[.98rem]'>Boots</li>
                         <li className='pt-1 pb-1 text-[.98rem]'>Clogs</li>
@@ -148,7 +147,6 @@ const Navbar = () => {
                          ${showIndentedNav === 2 ? 'block' : 'hidden'}
                        `}
                       >
-                        <li className='pt-1 pb-1 text-[.98rem]'>New Accessories</li>
                         <li className='pt-1 pb-1 text-[.98rem]'>Alpaca Throws</li>
                         <li className='pt-1 pb-1 text-[.98rem]'>Candles + scents</li>
                         <li className='pt-1 pb-1 text-[.98rem]'>Jewelry</li>
@@ -201,7 +199,6 @@ const Navbar = () => {
 
                       <div className='flex mt-5'>
                         <ul className='w-[50%]'>
-                          <li className='py-1 px-1 hover:bg-fuchsia-100 transition duration-500 cursor-pointer'>New Arrivals</li>
                           <li className='py-1 px-1 hover:bg-fuchsia-100 transition duration-500 cursor-pointer'>All</li>
                           <li className='py-1 px-1 hover:bg-fuchsia-100 transition duration-500 cursor-pointer'>Boots</li>
                           <li className='py-1 px-1 hover:bg-fuchsia-100 transition duration-500 cursor-pointer'>Clogs</li>
@@ -246,7 +243,6 @@ const Navbar = () => {
 
                       <div className='flex mt-5'>
                         <ul className='w-[50%]'>
-                          <li className='py-1 px-1 hover:bg-fuchsia-100 transition duration-500 cursor-pointer'>New Arrivals</li>
                           <li className='py-1 px-1 hover:bg-fuchsia-100 transition duration-500 cursor-pointer'>All</li>
                           <li className='py-1 px-1 hover:bg-fuchsia-100 transition duration-500 cursor-pointer'>Alpaca Throws</li>
                           <li className='py-1 px-1 hover:bg-fuchsia-100 transition duration-500 cursor-pointer'>Candles + Scents</li>

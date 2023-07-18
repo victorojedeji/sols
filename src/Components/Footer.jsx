@@ -5,7 +5,7 @@ import {CiInstagram, CiFacebook} from "react-icons/ci"
 const Footer = () => {
   return (
     <section>
-      <div className='bg-fuchsia-50 flex flex-col md:flex-row justify-between pt-7 md:pt-20 pb-10 pl-7 pr-7'>
+      <div className='bg-rose-50 flex flex-col md:flex-row justify-between pt-7 md:pt-20 pb-10 pl-7 pr-7'>
         <div className='w-[100%] mb-7 md:mb-0 md:w-[17%]'>
           <h4 className='font-body mb-2 text-xl'>Shops</h4>
           <ul>

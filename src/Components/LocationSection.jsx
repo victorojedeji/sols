@@ -1,17 +1,18 @@
 import React from 'react'
-import styled from 'styled-components'
 
-// import shopBg from '../Assets/shopBg/shopBg.jpg'
-import display from '../Assets/gift_shop/accessories.jpg'
 
-const ShopBgImg = styled.div`
-  width: 60%;
-  height: 100%;
-  background: url(${display});
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; 
-`
+
+// import styled from 'styled-components'
+// import display from '../Assets/shopBg/shopbg.jpg'
+
+// const ShopBgImg = styled.div`
+//   width: 60%;
+//   height: 100%;
+//   background: url(${display});
+//   background-position: center; 
+//   background-repeat: no-repeat; 
+//   background-size: cover; 
+// `
 
 const LocationSection = () => {
   return (
@@ -38,7 +39,7 @@ const LocationSection = () => {
         </div>
       </div>
 
-      <div className='giftshop-img-holder w-full md:w-[60%] h-full'></div>
+      <div className='shopbg w-full md:w-[60%] h-full'></div>
     </section>
   )
 }
