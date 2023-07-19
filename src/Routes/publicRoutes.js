@@ -18,6 +18,7 @@ import {
   ToteBags,
   Pillows,
   ShoeCare,
+  Checkout
 } from "../Pages";
 
 const authRoutes = [
@@ -96,6 +97,10 @@ const contentRoutes = [
   {
     path: "/:productCategory/:productId",
     element: <ProductDetails />,
+  },
+  {
+    path: "/checkout",
+    element: <Checkout />,
   },
 ];
 

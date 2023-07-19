@@ -13,9 +13,6 @@ const privateRoutes = [
     path: "/orders",
     element: <Orders />,
   },
-  {
-    path: "/checkout",
-    element: <Checkout />,
-  },
+  
 ];
 export { privateRoutes };
